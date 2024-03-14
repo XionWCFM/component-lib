@@ -20,3 +20,4 @@ coverage
 
 .ultra.cache.json
 *storybook.log
+storybook-static

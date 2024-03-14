@@ -1,5 +1,4 @@
 import type { StorybookConfig } from '@storybook/react-vite';
-
 import { join, dirname } from 'path';
 
 /**
@@ -24,6 +23,9 @@ const config: StorybookConfig = {
   },
   docs: {
     autodocs: 'tag',
+  },
+  core: {
+    builder: '@storybook/builder-vite', // 👈 The builder enabled here.
   },
 };
 export default config;

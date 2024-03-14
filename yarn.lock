@@ -2456,7 +2456,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/builder-vite@npm:8.0.0":
+"@storybook/builder-vite@npm:8.0.0, @storybook/builder-vite@npm:^8.0.0":
   version: 8.0.0
   resolution: "@storybook/builder-vite@npm:8.0.0"
   dependencies:
@@ -3377,7 +3377,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^16.8.0 || ^17.0.0 || ^18.0.0":
+"@types/react@npm:^16.8.0 || ^17.0.0 || ^18.0.0, @types/react@npm:^18":
   version: 18.2.65
   resolution: "@types/react@npm:18.2.65"
   dependencies:
@@ -8732,7 +8732,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^16.8.0 || ^17.0.0 || ^18.0.0":
+"react@npm:^16.8.0 || ^17.0.0 || ^18.0.0, react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -9125,9 +9125,11 @@ __metadata:
     "@storybook/addon-links": "npm:^8.0.0"
     "@storybook/addon-onboarding": "npm:^8.0.0"
     "@storybook/blocks": "npm:^8.0.0"
+    "@storybook/builder-vite": "npm:^8.0.0"
     "@storybook/react": "npm:^8.0.0"
     "@storybook/react-vite": "npm:^8.0.0"
     "@storybook/test": "npm:^8.0.0"
+    "@types/react": "npm:^18"
     "@typescript-eslint/eslint-plugin": "npm:^7.2.0"
     "@typescript-eslint/parser": "npm:^7.2.0"
     autoprefixer: "npm:^10.4.18"
@@ -9136,6 +9138,7 @@ __metadata:
     eslint-plugin-storybook: "npm:^0.8.0"
     postcss: "npm:^8.4.35"
     prettier: "npm:^3.2.5"
+    react: "npm:^18.2.0"
     storybook: "npm:^8.0.0"
     tailwindcss: "npm:^3.4.1"
     typescript: "npm:^5.4.2"
