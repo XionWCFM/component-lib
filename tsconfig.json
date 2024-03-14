@@ -4,10 +4,11 @@
     "noImplicitAny": true,
     "module": "es6",
     "target": "es5",
-    "jsx": "react-jsxdev",
+    "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
-    "importHelpers": true
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src/**/*", "stories/**/*"]
 }
