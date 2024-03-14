@@ -10798,8 +10798,8 @@ __metadata:
     typescript: "npm:^5.4.2"
     vite: "npm:^5.1.6"
   peerDependencies:
-    react: ^16.8.6
-    react-dom: ^16.8.6
+    react: ">=16.0.0"
+    react-dom: ">=16.0.0"
   languageName: unknown
   linkType: soft
 
