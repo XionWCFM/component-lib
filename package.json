@@ -1,5 +1,21 @@
 {
   "packageManager": "yarn@4.1.1",
+  "name": "test-component-lib",
+  "version": "0.0.1",
+  "description": "test lib hello world",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/bundle.cjs.js",
+      "import": "./dist/bundle.esm.js",
+      "default": "./dist/bundle.esm.js"
+    },
+    "./xds": "./dist/xds.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
   "scripts": {
     "lint": "eslint '*/**/*.{js,jsx,ts,tsx}' --fix",
     "storybook": "storybook dev -p 6006",
@@ -51,16 +67,5 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
-  },
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.js",
-      "default": "./dist/index.js"
-    }
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }
