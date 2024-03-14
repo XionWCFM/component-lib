@@ -3,9 +3,10 @@
   "scripts": {
     "lint": "eslint '*/**/*.{js,jsx,ts,tsx}' --fix",
     "storybook": "storybook dev -p 6006",
-    "build": "storybook build && rollup -c",
+    "build": "yarn clean && rollup -c && yarn build:tsc && storybook build",
     "rollup": "rollup -c --bundleConfigAsCjs",
-    "build:tsc": "tsc --emitDeclarationOnly"
+    "build:tsc": "tsc --emitDeclarationOnly",
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.19",
