@@ -5,16 +5,14 @@
   "env": {
     "browser": true,
     "node": true,
-    "es6": true,
+    "es6": true
   },
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true,
+      "jsx": true
     },
     "ecmaVersion": 2018,
-    "sourceType": "module",
+    "sourceType": "module"
   },
-  "rules": {
-    // 커스텀 룰을 여기에 추가하세요
-  },
+  "rules": {}
 }
