@@ -1,7 +1,7 @@
 {
   "packageManager": "yarn@4.1.1",
   "version": "0.0.1",
-  "name": "test-comp",
+  "name": "xion-test-comp",
   "description": "test lib hello world",
   "exports": {
     ".": {
@@ -60,12 +60,15 @@
     "vite": "^5.1.6"
   },
   "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
   },
   "eslintConfig": {
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

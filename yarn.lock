@@ -10012,48 +10012,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"test-comp@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "test-comp@workspace:."
-  dependencies:
-    "@chromatic-com/storybook": "npm:^1.2.19"
-    "@rollup/plugin-commonjs": "npm:^25.0.7"
-    "@rollup/plugin-node-resolve": "npm:^15.2.3"
-    "@storybook/addon-essentials": "npm:^8.0.0"
-    "@storybook/addon-interactions": "npm:^8.0.0"
-    "@storybook/addon-links": "npm:^8.0.0"
-    "@storybook/addon-onboarding": "npm:^8.0.0"
-    "@storybook/blocks": "npm:^8.0.0"
-    "@storybook/builder-vite": "npm:^8.0.0"
-    "@storybook/react": "npm:^8.0.0"
-    "@storybook/react-vite": "npm:^8.0.0"
-    "@storybook/test": "npm:^8.0.0"
-    "@types/react": "npm:^18.2.65"
-    "@types/react-dom": "npm:^18.2.22"
-    "@typescript-eslint/eslint-plugin": "npm:^7.2.0"
-    "@typescript-eslint/parser": "npm:^7.2.0"
-    autoprefixer: "npm:^10.4.18"
-    eslint: "npm:^8.57.0"
-    eslint-plugin-react: "npm:^7.34.0"
-    eslint-plugin-storybook: "npm:^0.8.0"
-    postcss: "npm:^8.4.35"
-    prettier: "npm:^3.2.5"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    rollup: "npm:^4.13.0"
-    rollup-plugin-terser: "npm:^7.0.2"
-    rollup-plugin-typescript2: "npm:^0.36.0"
-    storybook: "npm:^8.0.0"
-    tailwindcss: "npm:^3.4.1"
-    tslib: "npm:^2.6.2"
-    typescript: "npm:^5.4.2"
-    vite: "npm:^5.1.6"
-  peerDependencies:
-    react: ^16.8.6
-    react-dom: ^16.8.6
-  languageName: unknown
-  linkType: soft
-
 "text-table@npm:^0.2.0":
   version: 0.2.0
   resolution: "text-table@npm:0.2.0"
@@ -10802,6 +10760,48 @@ __metadata:
   checksum: 10c0/a7783bb421c648b1e622b423409cb2a58ac5839521d2f689e84bc9dc41d59379c692dd405b15a997ea1d4c0c2e5314ad707332d0c558f15232d2bc07c0b4618a
   languageName: node
   linkType: hard
+
+"xion-test-comp@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "xion-test-comp@workspace:."
+  dependencies:
+    "@chromatic-com/storybook": "npm:^1.2.19"
+    "@rollup/plugin-commonjs": "npm:^25.0.7"
+    "@rollup/plugin-node-resolve": "npm:^15.2.3"
+    "@storybook/addon-essentials": "npm:^8.0.0"
+    "@storybook/addon-interactions": "npm:^8.0.0"
+    "@storybook/addon-links": "npm:^8.0.0"
+    "@storybook/addon-onboarding": "npm:^8.0.0"
+    "@storybook/blocks": "npm:^8.0.0"
+    "@storybook/builder-vite": "npm:^8.0.0"
+    "@storybook/react": "npm:^8.0.0"
+    "@storybook/react-vite": "npm:^8.0.0"
+    "@storybook/test": "npm:^8.0.0"
+    "@types/react": "npm:^18.2.65"
+    "@types/react-dom": "npm:^18.2.22"
+    "@typescript-eslint/eslint-plugin": "npm:^7.2.0"
+    "@typescript-eslint/parser": "npm:^7.2.0"
+    autoprefixer: "npm:^10.4.18"
+    eslint: "npm:^8.57.0"
+    eslint-plugin-react: "npm:^7.34.0"
+    eslint-plugin-storybook: "npm:^0.8.0"
+    postcss: "npm:^8.4.35"
+    prettier: "npm:^3.2.5"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    rollup: "npm:^4.13.0"
+    rollup-plugin-terser: "npm:^7.0.2"
+    rollup-plugin-typescript2: "npm:^0.36.0"
+    storybook: "npm:^8.0.0"
+    tailwindcss: "npm:^3.4.1"
+    tslib: "npm:^2.6.2"
+    typescript: "npm:^5.4.2"
+    vite: "npm:^5.1.6"
+  peerDependencies:
+    react: ^16.8.6
+    react-dom: ^16.8.6
+  languageName: unknown
+  linkType: soft
 
 "xtend@npm:~4.0.1":
   version: 4.0.2
