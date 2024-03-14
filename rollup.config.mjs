@@ -8,7 +8,7 @@ export default {
   output: [
     {
       file: 'dist/bundle.esm.js', // ESM 형태로 빌드 결과
-      format: 'esm'
+      format: 'es'
     },
     {
       file: 'dist/bundle.cjs.js', // CommonJS 형태로 빌드 결과
