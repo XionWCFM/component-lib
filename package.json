@@ -4,7 +4,8 @@
     "lint": "eslint '*/**/*.{js,jsx,ts,tsx}' --fix",
     "storybook": "storybook dev -p 6006",
     "build": "storybook build && rollup -c",
-    "rollup": "rollup -c --bundleConfigAsCjs"
+    "rollup": "rollup -c --bundleConfigAsCjs",
+    "build:tsc": "tsc --emitDeclarationOnly"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.19",

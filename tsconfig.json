@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
+    "outDir": "./dist/",
     "noImplicitAny": true,
     "module": "ESNext",
     "target": "es5",
@@ -9,7 +9,13 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true
+    "strict": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true
   },
-  "include": ["src/**/*", "stories/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["**/*.stories.ts", "**/*.stories.tsx", "stories/**/*"]
 }
