@@ -1,7 +1,7 @@
 {
   "packageManager": "yarn@4.1.1",
-  "name": "test-component-lib",
   "version": "0.0.1",
+  "name": "test-comp",
   "description": "test lib hello world",
   "exports": {
     ".": {
