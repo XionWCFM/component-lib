@@ -1,6 +1,6 @@
 {
   "packageManager": "yarn@4.1.1",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "name": "xion-test-comp",
   "description": "test lib hello world",
   "exports": {
