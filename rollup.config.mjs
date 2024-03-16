@@ -1,6 +1,7 @@
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import typescript from 'rollup-plugin-typescript2';
+import PeerDepsExternalPlugin from 'rollup-plugin-peer-deps-external';
 import { terser } from 'rollup-plugin-terser';
 
 export default {
@@ -15,5 +16,5 @@ export default {
       format: 'cjs'
     }
   ],
-  plugins: [resolve(), commonjs(), typescript(), terser()] // 플러그인 설정
+  plugins: [PeerDepsExternalPlugin(), resolve(), commonjs(), typescript(), terser()] // 플러그인 설정
 };
